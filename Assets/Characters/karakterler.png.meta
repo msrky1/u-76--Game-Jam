@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: a43939c6bc8437246abdc0e1db5538bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4057198267322910419
+    second: karakterler_0
+  - first:
+      213: -9059519688196248058
+    second: karakterler_1
+  - first:
+      213: -8056433551940083551
+    second: karakterler_2
+  - first:
+      213: -2149617614238556484
+    second: karakterler_3
+  - first:
+      213: 7461955450287990036
+    second: karakterler_4
+  - first:
+      213: 8711187227571113246
+    second: karakterler_5
+  - first:
+      213: 6953889241002200526
+    second: karakterler_6
+  - first:
+      213: -3992926870459224387
+    second: karakterler_7
+  - first:
+      213: 1697554128165523975
+    second: karakterler_8
+  - first:
+      213: 2884047163725320340
+    second: karakterler_9
+  - first:
+      213: 2011977103743183760
+    second: karakterler_10
+  - first:
+      213: 249518579901595526
+    second: karakterler_11
+  - first:
+      213: 3600425360776755824
+    second: karakterler_12
+  - first:
+      213: -4232427887219725803
+    second: karakterler_13
+  - first:
+      213: -7712813909996023240
+    second: karakterler_14
+  - first:
+      213: 8306330691738297474
+    second: karakterler_15
+  - first:
+      213: 373562860958924098
+    second: karakterler_16
+  - first:
+      213: 8597482559136527600
+    second: karakterler_17
+  - first:
+      213: -5953771302663397739
+    second: karakterler_18
+  - first:
+      213: 2938470665180772887
+    second: karakterler_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: karakterler_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 242
+        width: 55
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2933ecfbafe1b7c0800000000000000
+      internalID: -4057198267322910419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 242
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea76dc7de164280800000000000000
+      internalID: -9059519688196248058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 275
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0a21c8e5cc13090800000000000000
+      internalID: -8056433551940083551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 240
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe53644b260b22e0800000000000000
+      internalID: -2149617614238556484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_4
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 274
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415a43862f03e8760800000000000000
+      internalID: 7461955450287990036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 287
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dcb4f21aa54e870800000000000000
+      internalID: 8711187227571113246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 240
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdc851eb6d218060800000000000000
+      internalID: 6953889241002200526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 278
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe6a20ba264698c0800000000000000
+      internalID: -3992926870459224387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_8
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 240
+        width: 53
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702dd4c4c7cee8710800000000000000
+      internalID: 1697554128165523975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 248
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49012557d91360820800000000000000
+      internalID: 2884047163725320340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 57
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09be4d4148afbeb10800000000000000
+      internalID: 2011977103743183760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 134
+        width: 56
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff4ef83d7767300800000000000000
+      internalID: 249518579901595526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_12
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af76d2ac747f130800000000000000
+      internalID: 3600425360776755824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 132
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51aafccc2456345c0800000000000000
+      internalID: -4232427887219725803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 166
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832def3fc9496f490800000000000000
+      internalID: -7712813909996023240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_15
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 179
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2846cfb51c3064370800000000000000
+      internalID: 8306330691738297474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_16
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 132
+        width: 57
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d3cbc51792f2500800000000000000
+      internalID: 373562860958924098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_17
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 170
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4f2fb06d4605770800000000000000
+      internalID: 8597482559136527600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_18
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 132
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e55de6b84ff5da0800000000000000
+      internalID: -5953771302663397739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: karakterler_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 140
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a7105508b87c820800000000000000
+      internalID: 2938470665180772887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
