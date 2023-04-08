@@ -37,8 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Alabora.cs" />
-     <Compile Include="Assets\Scripts\TolgaHocam.cs" />
-     <Compile Include="Assets\Scripts\AtilHocam.cs" />
+     <Compile Include="Assets\Scripts\NPCAtil.cs" />
+     <Compile Include="Assets\Scripts\NPCTolga.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
