@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Alabora : MonoBehaviour
 {
@@ -14,8 +15,20 @@ public class Alabora : MonoBehaviour
     private Animator _animator;
     private Rigidbody2D _r2D;
 
+
+    public float kitapSayac;
+
+
+    public GameObject gorevOne;
     public float up;
     public float down;
+
+
+    public Text sayac;
+
+
+
+
 
 
 
@@ -33,7 +46,14 @@ public class Alabora : MonoBehaviour
         speed = 0f;
         up = 0f;
         down = 0f;
+        kitapSayac = 0;
+
+
+
+
+
     }
+
 
 
     void Update()
@@ -46,6 +66,14 @@ public class Alabora : MonoBehaviour
 
     void FixedUpdate()
     {
+
+
+        sayac.text = kitapSayac.ToString();
+
+
+
+
+
 
         if (Input.GetKey(KeyCode.D))
         {
@@ -70,9 +98,6 @@ public class Alabora : MonoBehaviour
                 down = 2f;
                 transform.position += new Vector3(Time.deltaTime * speed, Time.deltaTime * -down, 0);
             }
-
-
-
 
 
 
@@ -148,57 +173,40 @@ public class Alabora : MonoBehaviour
 
         }
 
+        if (kitapSayac == 5)
+        {
 
 
 
 
+           Destroy(gorevOne);
+
+           sayac = 5;
 
 
 
 
-
-        // else if (Input.GetKey(KeyCode.A))
-        // {
-
-        //     speed = 2f;
-        //     transform.position += Vector3.left * Time.deltaTime * speed;
-
-        //     _spriteRender.flipX = true;
-
-
-        // }
-        // else if (Input.GetKey(KeyCode.W))
-        // {
-
-        //     up = 2f;
-        //     transform.position += Vector3.up * Time.deltaTime * up;
+        }
 
 
 
+    }
 
-        // }
-        // else if (Input.GetKey(KeyCode.S))
-        // {
-
-        //     down = 2f;
-        //     transform.position += Vector3.down * Time.deltaTime * down;
+    private void OnCollisionEnter2D(Collision2D other)
+    {
 
 
 
-
-        // }
-        // if (Input.GetKey(KeyCode.A & KeyCode.S))
-        // {
-
-        //     speed = 2f;
-        //     transform.position += Vector3.left * Time.deltaTime * speed;
-        //     _spriteRender.flipX = true  ;
+        if (other.gameObject.CompareTag("kitap"))
+        {
 
 
-        // }
+            kitapSayac++;
+            Destroy(other.gameObject);
 
 
 
+        }
 
 
 

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hoca1
+  - Hoca2
+  - kitap
+  - gorev01
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: base
+    uniqueID: 2466300499
+    locked: 0
+  - name: up
+    uniqueID: 4210475205
     locked: 0
