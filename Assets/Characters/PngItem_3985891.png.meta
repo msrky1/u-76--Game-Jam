@@ -105,6 +105,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -159,6 +160,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -749,6 +774,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PngItem_3985891_22: 7555852996047162745
+      PngItem_3985891_15: 6893718372642507416
+      PngItem_3985891_7: -7948730724700888765
+      PngItem_3985891_0: -4293196762119444711
+      PngItem_3985891_25: 6743326793468917258
+      PngItem_3985891_24: -1076247560825523873
+      PngItem_3985891_21: -879388493426845242
+      PngItem_3985891_6: 2472324829233831806
+      PngItem_3985891_5: -8819659403357256723
+      PngItem_3985891_4: 6222569295984342072
+      PngItem_3985891_11: -2963561334706469740
+      PngItem_3985891_14: -710437782242961681
+      PngItem_3985891_26: -5336334277649686660
+      PngItem_3985891_2: -7586486648314865596
+      PngItem_3985891_19: 3198856016918036695
+      PngItem_3985891_13: -4721940063505109710
+      PngItem_3985891_9: -2995137139143115830
+      PngItem_3985891_3: -4042163084952413748
+      PngItem_3985891_8: -3977421560109642396
+      PngItem_3985891_10: -2434719079454869317
+      PngItem_3985891_12: 792868511800408986
+      PngItem_3985891_18: 6166397120645857001
+      PngItem_3985891_20: 1209351538419637467
+      PngItem_3985891_23: 3309806597489311954
+      PngItem_3985891_16: -3526014868505028269
+      PngItem_3985891_17: 3028176451371298981
+      PngItem_3985891_1: 4904375921302108234
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
