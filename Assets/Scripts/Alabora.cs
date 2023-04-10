@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Alabora : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Alabora : MonoBehaviour
 
 
     public float kitapSayac;
+   
 
 
     public GameObject gorevOne;
@@ -25,8 +27,9 @@ public class Alabora : MonoBehaviour
 
 
     public Text sayac;
+    
 
-
+   
 
 
 
@@ -69,7 +72,7 @@ public class Alabora : MonoBehaviour
 
 
         sayac.text = kitapSayac.ToString();
-
+ 
 
 
 
@@ -78,7 +81,7 @@ public class Alabora : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
 
-            speed = 2f;
+            speed = 4f;
             transform.position += new Vector3(Time.deltaTime * speed, 0, 0);
 
             _spriteRender.flipX = false;
@@ -86,16 +89,16 @@ public class Alabora : MonoBehaviour
             if (Input.GetKey(KeyCode.W))
             {
 
-                speed = 2f;
-                up = 2f;
+                speed = 4f;
+                up = 4f;
                 transform.position += new Vector3(Time.deltaTime * speed, Time.deltaTime * up, 0);
             }
 
             if (Input.GetKey(KeyCode.S))
             {
 
-                speed = 2f;
-                down = 2f;
+                speed = 4f;
+                down = 4f;
                 transform.position += new Vector3(Time.deltaTime * speed, Time.deltaTime * -down, 0);
             }
 
@@ -117,8 +120,8 @@ public class Alabora : MonoBehaviour
 
             if (Input.GetKey(KeyCode.S))
             {
-                speed = 2f;
-                down = 2f;
+                speed = 4f;
+                down = 4f;
 
                 transform.position += new Vector3(Time.deltaTime * -speed, Time.deltaTime * -down, 0);
             }
@@ -128,7 +131,7 @@ public class Alabora : MonoBehaviour
         else if (Input.GetKey(KeyCode.S))
         {
 
-            down = 2f;
+            down = 4f;
 
             transform.position += new Vector3(0, Time.deltaTime * -down, 0);
 
@@ -149,14 +152,15 @@ public class Alabora : MonoBehaviour
             speed = 0f;
             down = 0f;
             up = 0f;
+
         }
         if (Input.GetKey(KeyCode.W))
         {
             if (Input.GetKey(KeyCode.A))
             {
 
-                speed = 2f;
-                up = 2f;
+                speed = 4f;
+                up = 4f;
                 transform.position += new Vector3(Time.deltaTime * -speed, Time.deltaTime * up, 0);
 
                 _spriteRender.flipX = true;
@@ -164,7 +168,7 @@ public class Alabora : MonoBehaviour
             else
             {
 
-                up = 2f;
+                up = 4f;
                 transform.position += new Vector3(0, Time.deltaTime * up, 0);
 
             }
@@ -177,16 +181,25 @@ public class Alabora : MonoBehaviour
         {
 
 
+          
 
-
-           Destroy(gorevOne);
-
-           sayac = 5;
-
-
+          SceneManager.LoadScene(2);
 
 
         }
+
+        if (kitapSayac == 5 )
+        {
+
+
+          
+
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
+        }
+
+        
 
 
 
@@ -207,6 +220,7 @@ public class Alabora : MonoBehaviour
 
 
         }
+         
 
 
 

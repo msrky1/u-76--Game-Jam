@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class NPCAtil : MonoBehaviour
 {
@@ -14,22 +15,32 @@ public class NPCAtil : MonoBehaviour
 
     public GameObject gorevOne;
 
-    
-    public GameObject kitaplar;
+
+    public GameObject kitap01;
+    public GameObject kitap02;
+    public GameObject kitap03;
+    public GameObject kitap04;
+    public GameObject kitap05;
     private Animator _animator;
     public float task;
 
     public float taskone;
+    public GameObject _text;
 
 
-    
 
     private SpriteRenderer _spriteRenderer;
 
- 
 
 
 
+
+    [SerializeField] private Image _time;
+    [SerializeField] private Text _timeText;
+    [SerializeField] private float _currentTime;
+    [SerializeField] private float _duration;
+
+    public GameObject Timer;
 
 
     float currentTime = 0f;
@@ -49,9 +60,35 @@ public class NPCAtil : MonoBehaviour
 
         _animator = GetComponent<Animator>();
 
+        _currentTime = _duration;
+        _timeText.text = _currentTime.ToString();
+       
+
     }
 
+ private IEnumerator CountdownTime()
+    {
+        while (_currentTime >= 0)
+        {
+            _time.fillAmount = Mathf.InverseLerp(0, _duration, _currentTime);
+            _timeText.text = _currentTime.ToString();
+            yield return new WaitForSeconds(1f);
+            _currentTime--;
+              
+            //   Debug.Log( _currentTime); 
+          
+            
+        }
+            if( _currentTime == -1 ){
 
+                  SceneManager.LoadScene(4);
+
+
+            }  
+        yield return null;
+       
+    }
+ 
 
 
     void Update()
@@ -108,7 +145,7 @@ public class NPCAtil : MonoBehaviour
 
         }
 
-
+       
 
         if (task == 2f)
         {
@@ -120,8 +157,11 @@ public class NPCAtil : MonoBehaviour
                 task = 0;
                 // Debug.Log("Test");
                 gorevOne.SetActive(false);
-
+                _text.SetActive(true);
                 taskone = 1f;
+                Timer.SetActive(true);
+                StartCoroutine(CountdownTime());
+
 
             }
 
@@ -132,17 +172,21 @@ public class NPCAtil : MonoBehaviour
             if (taskone == 1f)
             {
 
-        
-                 Debug.Log("Görev Başladı");
+
+                Debug.Log("Görev Başladı");
 
 
-               
-               kitaplar.SetActive(true);
+
+                kitap01.SetActive(true);
+                kitap02.SetActive(true);
+                kitap03.SetActive(true);
+                kitap04.SetActive(true);
+                kitap05.SetActive(true);
 
 
-            
 
-         
+
+
 
             }
 
@@ -171,7 +215,7 @@ public class NPCAtil : MonoBehaviour
 
 
         }
-   
+
 
     }
 }
